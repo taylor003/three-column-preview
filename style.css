@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+
+*,::before,::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: none;
+ border: none;
+ text-decoration: none;
+}
+
+html,
+body {
+ overflow-x: hidden;
+}
+
+html {
+ font-size: 10px; /* 1rem = 10px */
+ scroll-behavior: smooth;
+}
+ul {
+ list-style: none;
+}
+img{
+ max-width: 100%;
+ height: auto;
+}
+
+:root{
+ /* fonts */
+/* ### Primary*/
+
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+/* ### Neutral */
+
+--Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+
+body{
+ font-family: var(--first-font);
+ font-size: var(--size-font);
+ font-weight: var(--semi-font);
+ background-color: var(--Very-light-gray-backgroun-headings-buttons);
+ margin: 0;
+}
+
+/* layout start */
+.section{
+ width: 100vw;
+ height: auto;
+ }
+
+.main{
+ margin: auto;
+ margin-top: 10rem;
+ padding: 10px;
+ align-items: center;
+ height: 500px;
+ width: 60%;
+ display: flex;
+ flex-direction: row;
+ 
+
+}
+section{
+  padding: 4rem;
+  height: 450px;
+  align-items: center;
+}
+
+.main .seadans{
+  border-bottom-left-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Bright-orange);
+}
+.main .seadans div img{
+  padding-bottom: 2.5rem;
+}
+.main .seadans div h1{
+  font-size: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 2.5rem;
+}
+.main .seadans div p{
+  color: var(--Transparent-white-paragraphs);
+  font-size: 15px;
+  padding-bottom: 5.5rem;
+}
+
+.main .seadans div .button{
+ background-color: var(--Very-light-gray-background-headings-buttons);
+  height: 40px;
+  width: 110px;
+ border-radius: 20px;
+ border: 12rem;
+ padding: .7rem;
+ text-align: center;
+ color: var(--Bright-orange);
+ font-weight: 500;
+ margin: .2rem;
+ font-size: 15px;
+ cursor: pointer;
+ border-style: none;
+ 
+}
+.main .seadans div .button:hover{
+  background-color: var(--Bright-orange);
+  color: var(--Very-light-gray-background-headings-buttons);
+  border: .25rem;
+  border-style: solid;
+  border-color: var(--Very-light-gray-background-headings-buttons);
+  transition: all;
+}
+
+.main .suvs{
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Dark-cyan);
+}
+.main .suvs div img{
+  padding-bottom: 2.5rem;
+}
+.main .suvs div h1{
+  font-size: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 2.5rem;
+}
+.main .suvs div p{
+  color: var(--Transparent-white-paragraphs);
+  font-size: 15px;
+  padding-bottom: 5.5rem;
+}
+.main .suvs div .button{
+  background-color:hsl(0, 0%, 95%);
+  height: 40px;
+  width: 110px;
+  border-radius: 20px;
+  border: 12rem;
+  padding: .7rem;
+  text-align: center;
+  color: var(--Bright-orange);
+  font-weight: 500;
+  margin: .2rem;
+  font-size: 15px;
+  cursor: pointer;
+  border-style: none;
+ 
+}
+.main .suvs div .button:hover{
+  background-color: var(--Dark-cyan);
+  color: var(--Very-light-gray-background-headings-buttons);
+  border: .25rem;
+  border-style: solid;
+  border-color: var(--Very-light-gray-background-headings-buttons);
+  transition: all;
+}
+
+
+.main .luxury{
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Very-dark-cyan);
+}
+.main .luxury div img{
+  padding-bottom: 2.5rem;
+}
+.main .luxury div h1{
+  font-size: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 2.5rem;
+}
+.main .luxury div p{
+  color: var(--Transparent-white-paragraphs);
+  font-size: 15px;
+  padding-bottom: 5.5rem;
+}
+.main .luxury div .button{
+  background-color:hsl(0, 0%, 95%);
+  height: 40px;
+  width: 110px;
+  border-radius: 20px;
+  border: 12rem;
+  padding: .7rem;
+  text-align: center;
+  color: var(--Bright-orange);
+  font-weight: 500;
+  margin: .2rem;
+  font-size: 15px;
+  cursor: pointer;
+  border-style: none;
+}
+.main .luxury div .button:hover{
+  background-color: var(--Very-dark-cyan);
+  color: var(--Very-light-gray-background-headings-buttons);
+  border: .25rem;
+  border-style: solid;
+  border-color: var(--Very-light-gray-background-headings-buttons);
+  transition: all;
+}
+
+
+
+
+
+
+@media (max-width:991px){
+  .main{ 
+  display: grid;
+  border-style: none;
+  width: 35%;
+  }
+
+  section{
+    height: 400px;
+  }
+
+  .main .seadans{
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  }
+
+  .main .luxury{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-top-right-radius: 0rem;
+  }
+
+  }
+
